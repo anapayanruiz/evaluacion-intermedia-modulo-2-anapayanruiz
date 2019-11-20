@@ -24,9 +24,6 @@ const randomNumber = getRandomNumber(100);
 console.log(`Me genera un numero aleatorio ${randomNumber}`);
 
 
-//funcion para enlazar la funcion 
-
-
 
 //funcion para comprobar si el numero es igual al que ponemos
 //en el input
@@ -44,7 +41,6 @@ function comparateRandomNumber() {
         inputNumberStop.classList.remove('hidden');
     }
 };
-
 
 
 
