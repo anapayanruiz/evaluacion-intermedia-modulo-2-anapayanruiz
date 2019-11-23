@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,12 +9,13 @@
   </head>
   <body>
     <h1>Adivina el número</h1>
-    <p>introduce aquí el número</p>
-    <form>
-      <input class="js-input-number" />
-      <button class="js-button">Prueba</button>
+    <form action="" method="">
+      <label for="number">introduce aquí el número</label>
+      <input id="number" type="number" class="js-input-number" placeholder="Ej:88" />
+      <button class="js-button" type="submit">Prueba</button>
     </form class="container">
     <p>Pista: Escribe el número y dale a Prueba</p>
+    <p>Número de intentos:<span class="js-counter"></span></p>
     <p class="js-result-stop hidden">El numero debe estar entre el 1 y el 100</p>
     <p class="js-result-stop-high hidden">Demasiado alto</p>
     <p class="js-result-stop-low hidden">Demasiado bajo</p>
